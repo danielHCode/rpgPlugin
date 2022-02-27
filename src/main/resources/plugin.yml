@@ -1,0 +1,15 @@
+name: RPG
+version: '${project.version}'
+main: me.daniel.rpg.Main
+api-version: 1.17
+authors: [ Daniel ]
+commands:
+  build:
+    usage: build OR build <Player>
+  warp:
+    usage: warp <Location> OR warp new <Name>
+  spawn:
+    description: lists all chunks mobs can spawn in
+    usage: /spawn shows u the chunks custom monsters can spawm in
+  flyspeed:
+    usage: flyspeed <int>
